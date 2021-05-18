@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Launch the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33870715564,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch website \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 16
+                }
+              ],
+              "location": "googleSearch.setUp(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8405152,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleSearch.before(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Customer Login as Nakul chacha",
+        "description": "",
+        "id": "guru99-secondary-testing;customer-login-as-nakul-chacha",
+        "after": [
+          {
+            "result": {
+              "duration": 1778180231,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleSearch.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7336660931,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Customer Enters Credential and Login",
+            "match": {
+              "location": "googleSearch.Customer_Launches_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3246763928,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "New Customer \"Nakul chacha\" entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nakul chacha",
+                  "offset": 14
+                }
+              ],
+              "location": "googleSearch.Customer_Clicks_on_Customer_Login_Button(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Launch the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28287858382,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch website \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 16
+                }
+              ],
+              "location": "googleSearch.setUp(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 14,
+            "value": "#\tThen  Customer Log outs"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 873744,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleSearch.before(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Customer Login as Rohit Bishoyi",
+        "description": "",
+        "id": "guru99-secondary-testing;customer-login-as-rohit-bishoyi",
+        "after": [
+          {
+            "result": {
+              "duration": 2727836519,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleSearch.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5932468101,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Customer Enters Credential and Login",
+            "match": {
+              "location": "googleSearch.Customer_Launches_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4165585554,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "New Customer \"Rohit Bishoyi\" entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rohit Bishoyi",
+                  "offset": 14
+                }
+              ],
+              "location": "googleSearch.Customer_Clicks_on_Customer_Login_Button(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Guru99 Secondary Testing",
+    "description": "",
+    "id": "guru99-secondary-testing",
+    "keyword": "Feature",
+    "uri": "C:/Aditya Kumar/Eclipse-R\u0026D-Workspace/Bdd/src/test/resources/features/googleSearch2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Guru99-Second"
+      }
+    ]
+  }
+]

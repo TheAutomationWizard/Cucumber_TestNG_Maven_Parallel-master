@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="86.217717">
+<testcase classname="Guru99 Primary Testing" name="Customer Login as Mohit" time="43.769695">
+<system-out><![CDATA[Given Launch website "chrome"...............................................passed
+Given Customer Enters Credential and Login..................................passed
+When New Customer "Mohit Maane" entered.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Guru99 Primary Testing" name="Customer Login as Chutiay" time="42.448022">
+<system-out><![CDATA[Given Launch website "chrome"...............................................passed
+Given Customer Enters Credential and Login..................................passed
+When New Customer "Kaushik Ray" entered.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
